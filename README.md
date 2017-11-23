@@ -1,7 +1,3 @@
-# React Minimal Boilerplate
-
-A very lean React boilerplate, using webpack and gulp. [Demo](http://liady.github.io/react-webpack-gulp-starter/)
-
 ## Dev Build + Server
 Run the following commands:
 ```
@@ -9,23 +5,6 @@ $ npm install
 $ gulp
 ```
 Navigate your browser to `localhost:8181` to see the results. The files are watched, so all changes are automatically built and served.
-
-## Dev Build
-Run the following commands:
-```
-$ npm install
-$ gulp build-dev
-```
-The bundled file is created in `public/js/bundle.js`. The files are watched, so all changes are automatically built.
-Load `public/index.html` in the browser to see the results.
-
-## Production Build
-Run the following commands:
-```
-$ npm install
-$ gulp build
-```
-The bundled file is created in `public/js/bundle.js`
 
 ## File structure
 ```
@@ -58,8 +37,3 @@ webpack.config.getter.js
 - [ReactCSS](http://reactcss.com/)
 - [MaterialUI](http://material-ui.com/)
 
-### Pull requests are welcome!
-
-## License
-
-[MIT](http://rem.mit-license.org)
